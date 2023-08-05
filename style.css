@@ -1,0 +1,81 @@
+*{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+body{
+    background-color: #F28095;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header, footer{
+    width: 1000px;
+    text-align: center;
+}
+
+header{
+    height: 150px;
+    background-color: #141a1a;
+    background-image:url(bowl.jpg);
+    color: white;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 50px;
+    padding-left: 32px;
+}
+
+#grid-container{
+    width: 1000px;
+    margin: 0 auto; 
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+}
+
+nav{
+    width: 150px;
+    margin-top: 16px;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+}
+
+nav a{
+    display: block;
+
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #e0e5de;
+    color: #141a1a;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+nav a:first-child{
+    background-color: #f28095;
+}
+
+nav a:hover{
+    background-color: #f28095;
+}
