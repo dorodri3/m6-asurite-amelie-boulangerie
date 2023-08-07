@@ -21,6 +21,7 @@ header{
     background-color: #141a1a;
     background-image:url(bowl.jpg);
     color: white;
+    background-position: right;
 }
 
 h1{
