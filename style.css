@@ -1,5 +1,5 @@
 *{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     line-height: 1.5;
 }
 
@@ -20,6 +20,7 @@ header{
     height: 150px;
     background-color: #141a1a;
     background-image:url(bowl.jpg);
+    background-repeat: no-repeat;s
     color: white;
     background-position: right;
 }
